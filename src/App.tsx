@@ -7,6 +7,8 @@ function App() {
   const [count, setCount] = useState(0)
   const [value, setValue] = useState<number | null>(2)
   return (
+
+    
     <Box>
       <Typography variant='h1' fontWeight='600'>React x TypeScript</Typography>
       <Button variant='contained' onClick={()=>setCount(count+1)}>{count}</Button>
